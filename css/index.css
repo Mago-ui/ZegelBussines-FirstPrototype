@@ -1,0 +1,99 @@
+/* -------------------------estilos body-------------------------*/
+
+body {
+    margin: 0px;
+}
+
+.body-cuerpo {
+    background-image: url('../img/login.png');
+    font-family: 'Poppins', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+
+/*------------------------- estilos imagenes-------------------------*/
+.enlogo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.imagen {
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*------------------------- estilos footer-------------------------*/
+.pie {
+
+    display: flex;
+    flex-direction: column-reverse
+}
+
+.foo {
+    padding: 7px;
+    color: #e8dbdb;
+    margin-top: -94px;
+    display: flex;
+    justify-content: center;
+    background-color: #332b2b94;
+    align-items: center;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.36;
+    letter-spacing: 0.3px;
+}
+
+figure {
+    margin: 14px;
+}
+
+
+
+
+/*----------------------------------------------------------------------*/
+/*-------------------- Diseño Responsive-------------------------------*/
+
+
+@media (max-width: 799px) {
+
+    .foo {
+        font-size: 11px;
+        margin-top: -95px;
+    }
+
+    .interbank {
+        width: 51%;
+    }
+}
+
+@media (min-width: 800px) {
+
+    .foo {
+        font-size: 11px;
+    }
+
+    .interbank {
+        width: 30%;
+    }
+
+    p {
+        margin-top: 9px
+    }
+
+
+
+}
